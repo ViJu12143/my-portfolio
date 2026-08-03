@@ -497,3 +497,30 @@ footer {
     padding: 20px;
     margin-top: 50px;
 }
+
+/* ===========================
+   ABOUT SECTION
+=========================== */
+
+#about h2 {
+    text-align: center;
+    color: #0077ff;
+    margin-bottom: 40px;
+    font-size: 35px;
+}
+
+.about-container {
+    max-width: 900px;
+    margin: auto;
+    background: white;
+    padding: 40px;
+    border-radius: 20px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+}
+
+.about-container p {
+    font-size: 18px;
+    line-height: 1.8;
+    text-align: justify;
+    color: #444;
+}
