@@ -360,6 +360,7 @@ footer {
 }
 
 /* ===========================
+/* ===========================
    TABLET
 =========================== */
 
@@ -399,6 +400,7 @@ footer {
     }
 }
 
+
 /* ===========================
    MOBILE
 =========================== */
@@ -418,8 +420,16 @@ footer {
     }
 
     section {
-        padding: 50px 20px;
+        padding: 40px 15px;
+        margin: 0;
     }
+
+    section h2 {
+        margin-bottom: 20px;
+        font-size: 28px;
+    }
+
+    /* HOME */
 
     #home {
         min-height: auto;
@@ -459,33 +469,72 @@ footer {
         margin: 5px 8px;
     }
 
-    .skills-container {
-        grid-template-columns: 1fr;
-        padding: 20px 0;
-    }
+    /* ALL GRIDS */
 
-    .projects-container {
-        grid-template-columns: 1fr;
-        padding: 20px 0;
-    }
-
-    .certifications-container {
-        grid-template-columns: 1fr;
-        padding: 20px 0;
-    }
-
-    .achievements-container {
-        grid-template-columns: 1fr;
-        padding: 20px 0;
-    }
-
+    .skills-container,
+    .projects-container,
+    .certifications-container,
+    .achievements-container,
     .contact-container {
         grid-template-columns: 1fr;
-        padding: 20px 0;
+        gap: 15px;
+        padding: 0;
+        margin: 0;
     }
 
+    /* CARDS */
+
+    .project-card,
+    .certificate-card,
+    .achievement-card,
+    .skill-card,
+    .contact-card {
+        padding: 18px;
+        margin: 0;
+    }
+
+    /* CARD HEADINGS */
+
+    .project-card h3,
+    .certificate-card h3,
+    .achievement-card h3,
+    .skill-card h3,
+    .contact-card h3 {
+        margin-top: 5px;
+        margin-bottom: 10px;
+    }
+
+    /* CARD PARAGRAPHS */
+
+    .project-card p,
+    .certificate-card p,
+    .achievement-card p,
+    .skill-card p,
+    .contact-card p {
+        margin-top: 8px;
+        margin-bottom: 10px;
+        line-height: 1.5;
+    }
+
+    /* PROJECT IMAGES */
+
     .project-card img {
+        width: 100%;
         height: auto;
         max-height: 220px;
+        object-fit: cover;
+        margin-bottom: 12px;
+    }
+
+    /* ABOUT */
+
+    .about-container {
+        padding: 25px 20px;
+        margin: 0 auto;
+    }
+
+    .about-container p {
+        font-size: 16px;
+        line-height: 1.7;
     }
 }
